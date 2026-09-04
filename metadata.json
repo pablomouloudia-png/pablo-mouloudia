@@ -1,0 +1,6 @@
+{
+  "name": "ZF Agri - Distribution Agroalimentaire",
+  "description": "Plateforme B2B de commande en ligne multi-niveaux connectant usines, grossistes et détaillants dans la distribution agroalimentaire.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "/?source=pwa",
+  "name": "ZF Agri - Distribution Agroalimentaire",
+  "short_name": "ZF Agri",
+  "description": "Plateforme B2B de commande en ligne multi-niveaux connectant usines, grossistes et détaillants dans la distribution agroalimentaire en Algérie.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#020617",
+  "theme_color": "#022c22",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["business", "shopping", "food"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "ZF Agri - Application Mobile B2B"
+    },
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "ZF Agri - Portail Web B2B"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Catalogue Produits",
+      "short_name": "Catalogue",
+      "url": "/",
+      "description": "Consulter les produits et stocks agroalimentaires",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Espace Commandes",
+      "short_name": "Commandes",
+      "url": "/",
+      "description": "Suivre vos commandes et factures",
+      "icons": [
+        {
+          "src": "/pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
